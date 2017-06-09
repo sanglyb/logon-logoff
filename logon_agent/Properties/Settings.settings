@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="logon_agent.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="db" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=192.168.133.186\SQL2008;</Value>
+    </Setting>
+    <Setting Name="catalog" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Initial Catalog=glybin_test;</Value>
+    </Setting>
+    <Setting Name="security" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Persist Security Info=True;</Value>
+    </Setting>
+    <Setting Name="user" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">User ID=glybin_test;</Value>
+    </Setting>
+    <Setting Name="password" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Password=As12345^</Value>
+    </Setting>
+    <Setting Name="default_time" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">00:05:00</Value>
+    </Setting>
+    <Setting Name="encrypted" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

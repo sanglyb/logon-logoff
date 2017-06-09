@@ -1,0 +1,44 @@
+c:\users\glybin\documents\visual studio 2015\Projects\login-logoff\login-logoff\bin\Debug\login-logoff.exe.config
+c:\users\glybin\documents\visual studio 2015\Projects\login-logoff\login-logoff\bin\Debug\login-logoff.exe
+c:\users\glybin\documents\visual studio 2015\Projects\login-logoff\login-logoff\bin\Debug\login-logoff.pdb
+c:\users\glybin\documents\visual studio 2015\Projects\login-logoff\login-logoff\obj\Debug\login-logoff.csprojResolveAssemblyReference.cache
+c:\users\glybin\documents\visual studio 2015\Projects\login-logoff\login-logoff\obj\Debug\login_logoff.Form1.resources
+c:\users\glybin\documents\visual studio 2015\Projects\login-logoff\login-logoff\obj\Debug\login_logoff.Properties.Resources.resources
+c:\users\glybin\documents\visual studio 2015\Projects\login-logoff\login-logoff\obj\Debug\login-logoff.csproj.GenerateResource.Cache
+c:\users\glybin\documents\visual studio 2015\Projects\login-logoff\login-logoff\obj\Debug\login-logoff.exe
+c:\users\glybin\documents\visual studio 2015\Projects\login-logoff\login-logoff\obj\Debug\login-logoff.pdb
+C:\Users\glybin\Documents\Visual Studio 2015\Projects\login-logoff\login-logoff\obj\Debug\login_logoff.UsersForm.resources
+C:\Users\glybin\Documents\Visual Studio 2015\Projects\login-logoff\login-logoff\obj\Debug\login_logoff.AddUserForm.resources
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\bin\Debug\login-logoff.exe.config
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\obj\Debug\login-logoff.exe
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\obj\Debug\login-logoff.pdb
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\bin\Debug\login-logoff.exe
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\bin\Debug\login-logoff.pdb
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\obj\Debug\login_logoff.Form1.resources
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\obj\Debug\login_logoff.Properties.Resources.resources
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\obj\Debug\login_logoff.UsersForm.resources
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\obj\Debug\login-logoff.csproj.GenerateResource.Cache
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\obj\Debug\login_logoff.SettingsForm.resources
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\obj\Debug\login-logoff.csprojResolveAssemblyReference.cache
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\bin\Debug\logon-class.dll
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\bin\Debug\logon-class.pdb
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\bin\Debug\Cassia.dll
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\bin\Debug\Cassia.xml
+C:\Users\glybin\Desktop\Программирование\login-logoff\login-logoff\bin\Debug\Cassia.pdb
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\bin\Debug\login-logoff.exe.config
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\obj\Debug\login-logoff.exe
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\obj\Debug\login-logoff.pdb
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\bin\Debug\login-logoff.exe
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\bin\Debug\login-logoff.pdb
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\bin\Debug\Cassia.dll
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\bin\Debug\logon-class.dll
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\bin\Debug\logon-class.pdb
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\bin\Debug\Cassia.pdb
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\bin\Debug\Cassia.xml
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\obj\Debug\login-logoff.csprojResolveAssemblyReference.cache
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\obj\Debug\login_logoff.Form1.resources
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\obj\Debug\login_logoff.SettingsForm.resources
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\obj\Debug\login_logoff.Properties.Resources.resources
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\obj\Debug\login_logoff.UsersForm.resources
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\obj\Debug\login-logoff.csproj.GenerateResource.Cache
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\login-logoff\obj\Debug\login_logoff.about_form.resources

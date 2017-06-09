@@ -1,0 +1,12 @@
+C:\Users\glybin\Desktop\Программирование\pub\ConsoleApplication3\ConsoleApplication3\bin\Debug\logon_test.exe.config
+C:\Users\glybin\Desktop\Программирование\pub\ConsoleApplication3\ConsoleApplication3\bin\Debug\logon_test.exe
+C:\Users\glybin\Desktop\Программирование\pub\ConsoleApplication3\ConsoleApplication3\bin\Debug\logon_test.pdb
+C:\Users\glybin\Desktop\Программирование\pub\ConsoleApplication3\ConsoleApplication3\obj\Debug\logon_test.exe
+C:\Users\glybin\Desktop\Программирование\pub\ConsoleApplication3\ConsoleApplication3\obj\Debug\logon_test.pdb
+C:\Users\glybin\Desktop\Программирование\pub\ConsoleApplication3\ConsoleApplication3\obj\Debug\logon_test.csprojResolveAssemblyReference.cache
+C:\Users\glybin\Desktop\Программирование\releases\ConsoleApplication3\ConsoleApplication3\bin\Debug\logon_test.exe.config
+C:\Users\glybin\Desktop\Программирование\releases\ConsoleApplication3\ConsoleApplication3\obj\Debug\logon_test.exe
+C:\Users\glybin\Desktop\Программирование\releases\ConsoleApplication3\ConsoleApplication3\obj\Debug\logon_test.pdb
+C:\Users\glybin\Desktop\Программирование\releases\ConsoleApplication3\ConsoleApplication3\bin\Debug\logon_test.exe
+C:\Users\glybin\Desktop\Программирование\releases\ConsoleApplication3\ConsoleApplication3\bin\Debug\logon_test.pdb
+C:\Users\glybin\Desktop\Программирование\releases\ConsoleApplication3\ConsoleApplication3\obj\Debug\logon_test.csprojResolveAssemblyReference.cache

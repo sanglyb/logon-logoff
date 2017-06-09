@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Folders clsid="{77CC39E7-3D16-4f8f-AF86-EC0BBEE2C861}"><Folder clsid="{07DA02F5-F9CD-4397-A550-4AE21B6B4BD3}" name="%appdata%/logon/" status="%appdata%/logon/" image="3" changed="2016-07-20 11:27:11" uid="{C10F62F7-6116-4EF7-870D-6E38566A1E01}" bypassErrors="1"><Properties action="D" path="%appdata%/logon/" deleteFolder="1" deleteSubFolders="1" deleteFiles="1" deleteReadOnly="1" deleteIgnoreErrors="1" readOnly="1" archive="1" hidden="0"/></Folder>
+</Folders>

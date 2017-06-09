@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="logon_class.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="db" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Data Source=sql;</Value>
+    </Setting>
+    <Setting Name="catalog" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Initial Catalog=logon-logoff;</Value>
+    </Setting>
+    <Setting Name="security" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Persist Security Info=True;</Value>
+    </Setting>
+    <Setting Name="user" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">User ID=sa;</Value>
+    </Setting>
+    <Setting Name="password" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Password=password</Value>
+    </Setting>
+    <Setting Name="default_time" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">month</Value>
+    </Setting>
+    <Setting Name="encrypted" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="default_service_time" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">00:05:00</Value>
+    </Setting>
+    <Setting Name="default_app_time" Provider="PortableSettingsProvider" Type="System.String" Scope="User">
+      <Value Profile="(Default)">00:05:00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,16 @@
+C:\Users\glybin\Desktop\Программирование\login-logoff\logon_start_app\ConsoleApplication3\bin\Debug\logon_start_agent.exe.config
+C:\Users\glybin\Desktop\Программирование\login-logoff\logon_start_app\ConsoleApplication3\bin\Debug\logon_start_agent.exe
+C:\Users\glybin\Desktop\Программирование\login-logoff\logon_start_app\ConsoleApplication3\bin\Debug\logon_start_agent.pdb
+C:\Users\glybin\Desktop\Программирование\login-logoff\logon_start_app\ConsoleApplication3\obj\Debug\logon_start_agent.csprojResolveAssemblyReference.cache
+C:\Users\glybin\Desktop\Программирование\login-logoff\logon_start_app\ConsoleApplication3\obj\Debug\logon_start_agent.exe
+C:\Users\glybin\Desktop\Программирование\login-logoff\logon_start_app\ConsoleApplication3\obj\Debug\logon_start_agent.pdb
+C:\Users\glybin\Desktop\Программирование\login-logoff\logon_start_agent\bin\Debug\logon_start_agent.exe.config
+C:\Users\glybin\Desktop\Программирование\login-logoff\logon_start_agent\bin\Debug\logon_start_agent.exe
+C:\Users\glybin\Desktop\Программирование\login-logoff\logon_start_agent\bin\Debug\logon_start_agent.pdb
+C:\Users\glybin\Desktop\Программирование\login-logoff\logon_start_agent\obj\Debug\logon_start_agent.exe
+C:\Users\glybin\Desktop\Программирование\login-logoff\logon_start_agent\obj\Debug\logon_start_agent.pdb
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\logon_start_agent\bin\Debug\logon_start_agent.exe
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\logon_start_agent\bin\Debug\logon_start_agent.pdb
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\logon_start_agent\obj\Debug\logon_start_agent.exe
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\logon_start_agent\obj\Debug\logon_start_agent.pdb
+C:\Users\glybin\Desktop\Программирование\final\login-logoff\logon_start_agent\obj\Debug\logon_start_agent.csprojResolveAssemblyReference.cache
