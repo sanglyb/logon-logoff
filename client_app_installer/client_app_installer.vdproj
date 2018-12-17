@@ -21,12 +21,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_452BC527C92867A94FCBC46A71D170CF"
-        "OwnerKey" = "8:_2DE1459E3EE2448FB9F563FE8F24462B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_5C1268D8378368DEBDF71EA122A61F58"
         "OwnerKey" = "8:_2DE1459E3EE2448FB9F563FE8F24462B"
         "MsmSig" = "8:_UNDEFINED"
@@ -39,7 +33,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_CC2807AF8DE721D3DEC49094FDE97719"
+        "MsmKey" = "8:_7E13F72F827961EB0BB17270D3BC8B39"
+        "OwnerKey" = "8:_2DE1459E3EE2448FB9F563FE8F24462B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DAD61CB2EF165DF8ABFE3EA996325D07"
         "OwnerKey" = "8:_2DE1459E3EE2448FB9F563FE8F24462B"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -52,13 +52,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CC2807AF8DE721D3DEC49094FDE97719"
+        "OwnerKey" = "8:_7E13F72F827961EB0BB17270D3BC8B39"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_452BC527C92867A94FCBC46A71D170CF"
+        "OwnerKey" = "8:_DAD61CB2EF165DF8ABFE3EA996325D07"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -75,7 +75,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\client_app_installer.msi"
+        "OutputFilename" = "8:Debug\\client-installer.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:-2147483648"
         "CabType" = "3:1"
@@ -218,37 +218,6 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_452BC527C92867A94FCBC46A71D170CF"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Cassia, Version=2.0.0.60, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_452BC527C92867A94FCBC46A71D170CF"
-                    {
-                    "Name" = "8:Cassia.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Cassia.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_F76086C8CA3344079B9A0FC68E7AB745"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5C1268D8378368DEBDF71EA122A61F58"
             {
             "AssemblyRegister" = "3:1"
@@ -300,20 +269,51 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CC2807AF8DE721D3DEC49094FDE97719"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7E13F72F827961EB0BB17270D3BC8B39"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:logon-class, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_CC2807AF8DE721D3DEC49094FDE97719"
+                    "_7E13F72F827961EB0BB17270D3BC8B39"
                     {
                     "Name" = "8:logon-class.dll"
                     "Attributes" = "3:512"
                     }
                 }
             "SourcePath" = "8:logon-class.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_F76086C8CA3344079B9A0FC68E7AB745"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_DAD61CB2EF165DF8ABFE3EA996325D07"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Cassia, Version=2.0.0.60, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_DAD61CB2EF165DF8ABFE3EA996325D07"
+                    {
+                    "Name" = "8:Cassia.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Cassia.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_F76086C8CA3344079B9A0FC68E7AB745"
@@ -396,7 +396,7 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:sanglyb.ru"
+        "Manufacturer" = "8:sanglyb"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:logon-logoff"
@@ -404,7 +404,7 @@
         "ARPCONTACT" = "8:sanglyb"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
-        "ARPURLINFOABOUT" = "8:"
+        "ARPURLINFOABOUT" = "8:www.mytechnote.ru"
         "ARPPRODUCTICON" = "8:"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"

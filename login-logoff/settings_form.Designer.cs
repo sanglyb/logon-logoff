@@ -44,6 +44,10 @@
             this.security = new System.Windows.Forms.ComboBox();
             this.default_time_picker = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.workStartTime = new System.Windows.Forms.DateTimePicker();
+            this.workEndTime = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // db
@@ -77,9 +81,9 @@
             // 
             // save
             // 
-            this.save.Location = new System.Drawing.Point(200, 169);
+            this.save.Location = new System.Drawing.Point(200, 171);
             this.save.Name = "save";
-            this.save.Size = new System.Drawing.Size(301, 23);
+            this.save.Size = new System.Drawing.Size(301, 70);
             this.save.TabIndex = 6;
             this.save.Text = "Сохранить";
             this.save.UseVisualStyleBackColor = true;
@@ -165,7 +169,7 @@
             // default_time_picker
             // 
             this.default_time_picker.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.default_time_picker.Location = new System.Drawing.Point(126, 172);
+            this.default_time_picker.Location = new System.Drawing.Point(126, 221);
             this.default_time_picker.Name = "default_time_picker";
             this.default_time_picker.ShowUpDown = true;
             this.default_time_picker.Size = new System.Drawing.Size(68, 20);
@@ -176,17 +180,59 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(12, 179);
+            this.label7.Location = new System.Drawing.Point(12, 228);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(108, 13);
             this.label7.TabIndex = 30;
             this.label7.Text = "Время бездействия";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(12, 177);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(114, 13);
+            this.label8.TabIndex = 32;
+            this.label8.Text = "Начало рабочего дня";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(12, 204);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(108, 13);
+            this.label9.TabIndex = 33;
+            this.label9.Text = "Конец рабочего дня";
+            // 
+            // workStartTime
+            // 
+            this.workStartTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.workStartTime.Location = new System.Drawing.Point(126, 171);
+            this.workStartTime.Name = "workStartTime";
+            this.workStartTime.ShowUpDown = true;
+            this.workStartTime.Size = new System.Drawing.Size(68, 20);
+            this.workStartTime.TabIndex = 34;
+            this.workStartTime.Value = new System.DateTime(2016, 6, 1, 9, 0, 0, 0);
+            // 
+            // workEndTime
+            // 
+            this.workEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Time;
+            this.workEndTime.Location = new System.Drawing.Point(126, 197);
+            this.workEndTime.Name = "workEndTime";
+            this.workEndTime.ShowUpDown = true;
+            this.workEndTime.Size = new System.Drawing.Size(68, 20);
+            this.workEndTime.TabIndex = 35;
+            this.workEndTime.Value = new System.DateTime(2016, 6, 1, 18, 0, 0, 0);
+            // 
             // SettingsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(505, 204);
+            this.ClientSize = new System.Drawing.Size(505, 252);
+            this.Controls.Add(this.workEndTime);
+            this.Controls.Add(this.workStartTime);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.default_time_picker);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.security);
@@ -229,5 +275,9 @@
         private System.Windows.Forms.ComboBox security;
         private System.Windows.Forms.DateTimePicker default_time_picker;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.DateTimePicker workStartTime;
+        private System.Windows.Forms.DateTimePicker workEndTime;
     }
 }

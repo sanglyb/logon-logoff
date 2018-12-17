@@ -15,6 +15,8 @@ namespace login_logoff
     public partial class SettingsForm : Form
     {
         private string idle_time;
+        private string wStartTime;
+        private string wEndTime;
         public SettingsForm()
         {
             InitializeComponent();
@@ -53,14 +55,20 @@ namespace login_logoff
 
         private void SettingsForm_Load(object sender, EventArgs e)
         {
+            string[] idleTime = new string[3];
             try
             {
-                idle_time = logon_class.get_settings.get_idle_time();
+                idleTime = logon_class.get_settings.get_idle_time();
+                idle_time = idleTime[0];
+                wStartTime = idleTime[1];
+                wEndTime = idleTime[2];
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Произошла ошибка при получении времени простоя: \n" + ex.ToString());
                 idle_time = "00:05:00";
+                wStartTime = "09:00:00";
+                wEndTime = "18:00:00";
             }
 
             SimpleEncryption decrypt = new SimpleEncryption("password");
@@ -125,6 +133,8 @@ namespace login_logoff
                 }
             }
             default_time_picker.Text = idle_time;
+            workStartTime.Text = wStartTime;
+            workEndTime.Text = wEndTime;
         }
 
         private void save_Click(object sender, EventArgs e)
@@ -166,7 +176,7 @@ namespace login_logoff
                     logon_class.Properties.Settings.Default.default_time = ("day");
                 logon_class.Properties.Settings.Default.encrypted = "1";*/
                 logon_class.Properties.Settings.Default.Save();
-                sql = "exec set_idle_time_for_app @idle_time='" + default_time_picker.Text + "';";
+                sql = "exec set_idle_time_for_app @idle_time='" + default_time_picker.Text + "', @workStartTime='"+workStartTime.Text+"', @workEndTime='"+workEndTime.Text+"';";
                 logon_class.get_settings.sql_execute(sql);
                 MessageBox.Show("Изменения сохранены");
                 this.SettingsForm_Load(sender, e);

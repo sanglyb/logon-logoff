@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logon-logoff", "login-logoff\logon-logoff.csproj", "{7C090831-81BA-4AD2-BA50-E4F5A80F7E47}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logon_server_service", "logon_server_service\logon_server_service.csproj", "{880711C7-FC32-4149-8E6E-B03A720FAC15}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "logon_server_service_installer", "installer\installer.vdproj", "{151B50F7-2CFB-42C5-9F70-1D9730F6853C}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "logon-logoff-server", "installer\installer.vdproj", "{151B50F7-2CFB-42C5-9F70-1D9730F6853C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logon-class", "logon-class\logon-class.csproj", "{8647A1A5-5C36-4973-9C5B-742C39B0334F}"
 EndProject
@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logon_agent", "logon_agent\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logon_start_agent", "logon_start_agent\logon_start_agent.csproj", "{B8F39F07-D3D1-400A-BF87-471729404D47}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "client_app_installer", "client_app_installer\client_app_installer.vdproj", "{DB733EA2-1A10-47A5-98F6-82ED50A6125F}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "logon-logoff-client", "client_app_installer\client_app_installer.vdproj", "{DB733EA2-1A10-47A5-98F6-82ED50A6125F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,9 +48,13 @@ Global
 		{B8F39F07-D3D1-400A-BF87-471729404D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8F39F07-D3D1-400A-BF87-471729404D47}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DB733EA2-1A10-47A5-98F6-82ED50A6125F}.Debug|Any CPU.ActiveCfg = Debug
+		{DB733EA2-1A10-47A5-98F6-82ED50A6125F}.Debug|Any CPU.Build.0 = Debug
 		{DB733EA2-1A10-47A5-98F6-82ED50A6125F}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84B8EABC-DD73-41B0-82ED-06F87AFA6E82}
 	EndGlobalSection
 EndGlobal

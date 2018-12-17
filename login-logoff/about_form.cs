@@ -35,5 +35,15 @@ namespace login_logoff
         {
             Process.Start("mailto:" + linkLabel2.Text);
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("http://" + linkLabel3.Text);
+        }
     }
 }

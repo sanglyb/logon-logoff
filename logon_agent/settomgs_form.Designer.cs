@@ -39,8 +39,6 @@
             this.user = new System.Windows.Forms.TextBox();
             this.catalog = new System.Windows.Forms.TextBox();
             this.db = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.default_time_picker = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // security
@@ -101,9 +99,9 @@
             // 
             // save
             // 
-            this.save.Location = new System.Drawing.Point(198, 143);
+            this.save.Location = new System.Drawing.Point(15, 143);
             this.save.Name = "save";
-            this.save.Size = new System.Drawing.Size(303, 23);
+            this.save.Size = new System.Drawing.Size(486, 23);
             this.save.TabIndex = 19;
             this.save.Text = "Сохранить";
             this.save.UseVisualStyleBackColor = true;
@@ -138,33 +136,11 @@
             this.db.Size = new System.Drawing.Size(375, 20);
             this.db.TabIndex = 15;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 150);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(108, 13);
-            this.label6.TabIndex = 28;
-            this.label6.Text = "Время бездействия";
-            // 
-            // default_time_picker
-            // 
-            this.default_time_picker.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.default_time_picker.Location = new System.Drawing.Point(126, 143);
-            this.default_time_picker.Name = "default_time_picker";
-            this.default_time_picker.ShowUpDown = true;
-            this.default_time_picker.Size = new System.Drawing.Size(68, 20);
-            this.default_time_picker.TabIndex = 29;
-            this.default_time_picker.Value = new System.DateTime(2016, 6, 1, 0, 0, 5, 0);
-            this.default_time_picker.ValueChanged += new System.EventHandler(this.default_time_picker_ValueChanged);
-            // 
             // Setup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(515, 178);
-            this.Controls.Add(this.default_time_picker);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.security);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -197,7 +173,5 @@
         private System.Windows.Forms.TextBox user;
         private System.Windows.Forms.TextBox catalog;
         private System.Windows.Forms.TextBox db;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.DateTimePicker default_time_picker;
     }
 }

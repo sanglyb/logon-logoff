@@ -104,7 +104,7 @@ namespace logon_agent
         }
         public void get_time()
         {
-            default_time = TimeSpan.Parse(logon_class.get_settings.get_idle_time());
+            default_time = TimeSpan.Parse(logon_class.get_settings.get_idle_time()[0]);
         }
             
     }

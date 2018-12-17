@@ -14,7 +14,6 @@ namespace logon_agent
 {
     public partial class Setup : Form
     {
-        private string idle_time;
         public Setup()
         {
             InitializeComponent();
@@ -24,21 +23,11 @@ namespace logon_agent
 
         private void Setup_FormClosing(object sender, FormClosingEventArgs e)
         {
-                Application.Exit();
+            Application.Exit();
         }
 
         private void Setup_Load(object sender, EventArgs e)
         {
-            try
-            {
-                idle_time = logon_class.get_settings.get_idle_time();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Произошла ошибка при получении времени простоя: \n" + ex.ToString());
-                idle_time = "05:00:00";
-            }
-
             SimpleEncryption decrypt = new SimpleEncryption("password");
             string[] splited = new string[3];
             if (logon_class.Properties.Settings.Default.encrypted.Equals("1"))
@@ -54,7 +43,7 @@ namespace logon_agent
                 splited = decrypt.Decrypt(logon_class.Properties.Settings.Default.user).Split('=', ';');
                 user.Text = splited[1];
                 splited = decrypt.Decrypt((logon_class.Properties.Settings.Default.password)).Split('=', ';');
-                password.Text = splited[1];                
+                password.Text = splited[1];
             }
             else
             {
@@ -69,10 +58,9 @@ namespace logon_agent
                 user.Text = splited[1];
                 splited = (logon_class.Properties.Settings.Default.password).Split('=', ';');
                 password.Text = splited[1];
-                
+
 
             }
-            default_time_picker.Text = idle_time;
         }
 
 
@@ -115,11 +103,9 @@ namespace logon_agent
                 logon_class.Properties.Settings.Default.catalog = encrypt.Encrypt("Initial Catalog=" + catalog.Text + ";");
                 logon_class.Properties.Settings.Default.security = encrypt.Encrypt("Persist Security Info=" + security.Text + ";");
                 logon_class.Properties.Settings.Default.user = encrypt.Encrypt("User ID=" + user.Text + ";");
-                logon_class.Properties.Settings.Default.password = encrypt.Encrypt("Password=" + password.Text + ";");                
+                logon_class.Properties.Settings.Default.password = encrypt.Encrypt("Password=" + password.Text + ";");
                 logon_class.Properties.Settings.Default.encrypted = "1";
                 logon_class.Properties.Settings.Default.Save();
-                sql = "exec set_idle_time_for_app @idle_time='" + default_time_picker.Text + "';";
-                Program.sql_execute(sql);
                 Program.log_write("В настройки logon_agent внесли изменения", EventLogEntryType.Warning);
                 this.Setup_Load(sender, e);
             }
@@ -130,12 +116,5 @@ namespace logon_agent
             }
         }
 
-        private void default_time_picker_ValueChanged(object sender, EventArgs e)
-        {
-            if (TimeSpan.Parse(default_time_picker.Text)<TimeSpan.Parse("00:01:12"))
-            {
-                default_time_picker.Text = "00:01:12";
-            }
-        }
     }
 }

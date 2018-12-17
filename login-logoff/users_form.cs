@@ -28,6 +28,9 @@ namespace login_logoff
 
         private void UsersForm_Load(object sender, EventArgs e)
         {
+
+            string workStartTime = logon_class.get_settings.getWstartTime();
+            string workEndTime = logon_class.get_settings.getWendTIme();
             int culumn_count = 7;
             Form1 mainform = new Form1();
             string sql = "";
@@ -140,13 +143,13 @@ namespace login_logoff
                     timebox[i, n].Name = n + " " + i;
                     if (i == 3)
                     {
-                        writes[i, n] = "10:00:00";
-                        timebox[i, n].Text = "10:00:00";
+                        writes[i, n] = workStartTime;
+                        timebox[i, n].Text = workStartTime;
                     }
                     else
                     {
-                        writes[i, n] = "19:00:00";
-                        timebox[i, n].Text = "19:00:00";
+                        writes[i, n] = workEndTime;
+                        timebox[i, n].Text = workEndTime;
                     }
                     timebox[i, n].Location = new Point(label_name[i].Location.X, (label_name[i].Location.Y + 20) * (n + 1));
                     timebox[i, n].Size = new Size(90, 20);

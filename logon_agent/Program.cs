@@ -86,7 +86,7 @@ static void Main(string[] args)
             }
             catch (Exception ex)
             {
-                log_write("В программе logon_agent произошла ошибка \n" + ex.ToString() + "", EventLogEntryType.Error);
+                log_write("В программе logon_agent произошла ошибка \n" + ex.ToString() + sql + "", EventLogEntryType.Error);
             }
         }
         public static byte rdp_check()

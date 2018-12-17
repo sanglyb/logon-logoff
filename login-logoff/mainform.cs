@@ -538,7 +538,7 @@ namespace login_logoff
         //получение списка пользователей
         public string[] spisok_polzovateley()
         {
-                string[] users = new string[1];
+                string[] users = new string[1] {""};
                 try
                 {
                 string sql = "select distinct surname from DbUserLoginUsers";
